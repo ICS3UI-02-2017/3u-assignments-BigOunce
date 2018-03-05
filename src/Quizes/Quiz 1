@@ -1,0 +1,72 @@
+//create a new city
+        City jb = new City();
+
+//add a new robot
+        RobotSE bg = new RobotSE(jb, 4, 0, Direction.WEST);
+
+
+//build staircase
+ new Wall(jb, 2, 4, Direction.NORTH);
+ new Wall(jb, 2, 4, Direction.WEST);
+ new Wall(jb, 3, 3, Direction.NORTH);
+ new Wall(jb, 3, 3, Direction.WEST);
+ new Wall(jb, 4, 2, Direction.NORTH);
+ new Wall(jb, 4, 2, Direction.WEST);
+ new Wall(jb, 5, 2, Direction.NORTH);
+ new Wall(jb, 5, 2, Direction.EAST);
+ new Wall(jb, 6, 3, Direction.NORTH);
+ new Wall(jb, 6, 3, Direction.EAST);
+ new Wall(jb, 7, 4, Direction.NORTH);
+ new Wall(jb, 7, 4, Direction.EAST);
+
+//place things
+new Thing(jb, 4, 1, Direction.NORTH);
+new Thing(jb, 3, 2, Direction.NORTH);
+new Thing(jb, 2, 3, Direction.NORTH);
+new Thing(jb, 1, 4, Direction.NORTH);
+
+
+//robot moves
+bg.move
+
+//robot picks up object
+bg.pickThing();
+
+//robot turns left
+bg.turnleft
+bg.move
+
+//robot turns right
+bg.turnright
+bg.move
+bg.pickthing
+bg.turnleft
+bg.move
+bg.turnright
+bg.move
+
+//robot places object
+bg.pickthing
+bg.turnleft
+bg.move
+bg.turnright
+bg.move
+bg.pickthing
+bg.move
+bg.putthing
+bg.move
+bg.turnright
+bg.move
+bg.putthing
+bg.turnleft
+bg.move
+bg.turnright
+bg.move
+bg.putthing
+bg.turnleft
+bg.move
+bg.turnright
+bg.move
+bg.putthing
+bg.turnleft
+bg.move
