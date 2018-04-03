@@ -10,19 +10,18 @@ import java.util.Scanner;
  *
  * @author britj5751
  */
-public class A4Q1 {
+public class A4Q2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    Scanner input = new Scanner(System.in);
-            System.out.println("Please enter your name");
-        // make a String to store a name
-        String name = input.nextLine();
-        // say hello
-        System.out.print("Hello " + name );
-        System.out.println(" how are you");
+            Scanner input = new Scanner(System.in);
+            System.out.println("Please input a length");
+            
+            double inches = input.nextDouble();
+            double cm = 2.54 * inches;
+            System.out.println(inches + "inches is the same as" + cm + "cm");
     }
 }
